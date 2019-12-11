@@ -1,0 +1,44 @@
+{
+  "content": {
+    "data": {
+      "CUSTOM_MAIN_MENU": {
+        "id": "CUSTOM_MAIN_MENU",
+        "metaData": {
+          "isHidden": false,
+          "isPreset": true,
+          "schemaVersion": "1.0"
+        },
+        "name": "Custom Main Menu",
+        "type": "CustomMenu"
+      }
+    },
+    "structure": {
+      "CUSTOM_MAIN_MENU": {
+        "id": "CUSTOM_MAIN_MENU",
+        "items": [
+          "#dataItem-ja9cchp0",
+          "#dataItem-jnalyd3b",
+          "#dataItem-ja0vnm9z",
+          "#dataItem-jnctnaze"
+        ]
+      },
+      "dataItem-ja0vnm9z": {
+        "id": "dataItem-ja0vnm9z",
+        "items": []
+      },
+      "dataItem-ja9cchp0": {
+        "id": "dataItem-ja9cchp0",
+        "items": []
+      },
+      "dataItem-jnalyd3b": {
+        "id": "dataItem-jnalyd3b",
+        "items": []
+      },
+      "dataItem-jnctnaze": {
+        "id": "dataItem-jnctnaze",
+        "items": []
+      }
+    }
+  },
+  "documentSchemaVersion": "1.0"
+}

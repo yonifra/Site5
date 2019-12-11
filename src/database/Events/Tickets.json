@@ -1,0 +1,108 @@
+{
+  "displayName": "Tickets",
+  "permissions": "none",
+  "maxPageSize": 50,
+  "allowedOperations": [
+    "get",
+    "find",
+    "count"
+  ],
+  "id": "Events/Tickets",
+  "isDeleted": false,
+  "ownerAppId": "140603ad-af8d-84a5-2c80-a0f60cb47351",
+  "displayNamespace": null,
+  "fields": {
+    "name": {
+      "displayName": "Name",
+      "sortable": true,
+      "queryOperators": [
+        "eq",
+        "ne",
+        "contains",
+        "hasSome",
+        "urlized"
+      ],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "text",
+      "index": 0
+    },
+    "event": {
+      "displayName": "Event",
+      "sortable": true,
+      "referencedCollection": "Events/Events",
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "reference",
+      "index": 2
+    },
+    "description": {
+      "displayName": "Description",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "text",
+      "index": 3
+    },
+    "_id": {
+      "displayName": "ID",
+      "sortable": false,
+      "queryOperators": [
+        "eq",
+        "ne",
+        "contains",
+        "hasSome",
+        "urlized"
+      ],
+      "isDeleted": false,
+      "systemField": true,
+      "type": "text",
+      "index": 1
+    },
+    "price": {
+      "displayName": "Price",
+      "sortable": true,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "number",
+      "index": 4
+    },
+    "remainingTickets": {
+      "displayName": "Remaining Tickets",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "number",
+      "index": 6
+    },
+    "currency": {
+      "displayName": "Currency",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "text",
+      "index": 5
+    },
+    "policy": {
+      "displayName": "Policy",
+      "sortable": false,
+      "queryOperators": [],
+      "isDeleted": false,
+      "systemField": false,
+      "type": "text",
+      "index": 7
+    }
+  },
+  "displayField": "name",
+  "storage": "driver",
+  "defaultSort": {
+    "fieldName": "name",
+    "direction": "asc"
+  },
+  "namespace": "Events"
+}

@@ -1,0 +1,4 @@
+node_modules
+.corvid
+**/*.d.ts
+**/*tsconfig.json

@@ -1,0 +1,16 @@
+{
+  "content": [
+    "normal normal bold 70px/1.4em playfairdisplay-bold {color_18}",
+    "normal normal normal 16px/1.4em din-next-w01-light {color_14}",
+    "normal normal bold 16px/1.4em poppins-extralight {color_0}",
+    "normal normal normal 20px/1.4em poppins-semibold {color_0}",
+    "normal normal normal 42px/1.4em poppins-semibold {color_0}",
+    "normal normal normal 26px/1.4em playfairdisplay-bold {color_18}",
+    "normal normal normal 135px/1.4em playfairdisplay-bold {color_18}",
+    "normal normal normal 16px/1.4em avenir-lt-w01_85-heavy1475544 {color_0}",
+    "normal normal normal 14px/1.4em poppins-extralight {color_0}",
+    "normal normal normal 13px/1.4em poppins-extralight {color_0}",
+    "normal normal normal 12px/1.4em din-next-w01-light {color_14}"
+  ],
+  "documentSchemaVersion": "1.0"
+}
