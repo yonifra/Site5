@@ -896,24 +896,6 @@
                 "type": "Component"
               },
               {
-                "componentType": "wysiwyg.viewer.components.WRichText",
-                "connectionQuery": "connection-k41o681p",
-                "dataQuery": "#dataItem-k41o681g",
-                "id": "comp-k41o681f",
-                "layout": {
-                  "fixedPosition": false,
-                  "height": 56,
-                  "rotationInDegrees": 0,
-                  "scale": 1,
-                  "width": 547,
-                  "x": 37,
-                  "y": 183
-                },
-                "propertyQuery": "propItem-k41o681g1",
-                "styleId": "txtNew",
-                "type": "Component"
-              },
-              {
                 "componentType": "wysiwyg.viewer.components.FiveGridLine",
                 "connectionQuery": "connection-k41o6833",
                 "id": "comp-k41o682s",
@@ -929,25 +911,6 @@
                 "propertyQuery": "propItem-k41o682t",
                 "skin": "wysiwyg.viewer.skins.line.SolidLine",
                 "styleId": "style-k41o682u",
-                "type": "Component"
-              },
-              {
-                "componentType": "wysiwyg.viewer.components.PopupCloseTextButton",
-                "connectionQuery": "connection-k41o684f",
-                "dataQuery": "#dataItem-k41o68451",
-                "id": "comp-k41o6845",
-                "layout": {
-                  "fixedPosition": false,
-                  "height": 45,
-                  "rotationInDegrees": 0,
-                  "scale": 1,
-                  "width": 175,
-                  "x": 223,
-                  "y": 299
-                },
-                "propertyQuery": "propItem-k41o6846",
-                "skin": "wysiwyg.viewer.skins.button.BasicButton",
-                "styleId": "style-k41o68461",
                 "type": "Component"
               },
               {
@@ -976,6 +939,43 @@
                 "propertyQuery": "propItem-k41o685o",
                 "skin": "svgshape.v1.svg_7d72932f870a315ce1b030fcc29ba4e5.XMark",
                 "styleId": "style-k41o685o1",
+                "type": "Component"
+              },
+              {
+                "componentType": "wysiwyg.viewer.components.WRichText",
+                "connectionQuery": "connection-k41o681p",
+                "dataQuery": "#dataItem-k41o681g",
+                "id": "comp-k41o681f",
+                "layout": {
+                  "fixedPosition": false,
+                  "height": 56,
+                  "rotationInDegrees": 0,
+                  "scale": 1,
+                  "width": 547,
+                  "x": 37,
+                  "y": 183
+                },
+                "propertyQuery": "propItem-k41o681g1",
+                "styleId": "txtNew",
+                "type": "Component"
+              },
+              {
+                "componentType": "wysiwyg.viewer.components.PopupCloseTextButton",
+                "connectionQuery": "connection-k41o684f",
+                "dataQuery": "#dataItem-k41o68451",
+                "id": "comp-k41o6845",
+                "layout": {
+                  "fixedPosition": false,
+                  "height": 45,
+                  "rotationInDegrees": 0,
+                  "scale": 1,
+                  "width": 175,
+                  "x": 223,
+                  "y": 299
+                },
+                "propertyQuery": "propItem-k41o6846",
+                "skin": "wysiwyg.viewer.skins.button.BasicButton",
+                "styleId": "style-k41o68461",
                 "type": "Component"
               }
             ],
